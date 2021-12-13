@@ -1,3 +1,3 @@
 package com.example.postrequest
 
-data class UserDetails (val pk :Int, val name:String , val location:String)
+data class UserDetails ( val name:String , val location:String,val pk:Int)

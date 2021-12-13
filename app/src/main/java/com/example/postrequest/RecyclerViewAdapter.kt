@@ -24,6 +24,7 @@ class RecyclerViewAdapter(var userData:List<UserDetails>) : RecyclerView.Adapter
         holder.itemView.apply {
            nameTv.text = info.name
             locationTv.text = info.location
+            idTvv.text = "pk:"+info.pk.toString()
 
         }
     }
